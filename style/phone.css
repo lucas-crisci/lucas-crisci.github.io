@@ -37,7 +37,7 @@ nav{
     transition-duration: 0.7s;
 }
 nav>div{
-    margin-top: 25%;
+    margin-top: 400px;
 }
 nav>div>a>span{
     color: aliceblue;
