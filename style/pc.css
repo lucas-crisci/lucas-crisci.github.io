@@ -1,0 +1,74 @@
+/** CSS complet **/
+
+h1,h2,h3,p,a{
+    font-family:trebuchet, helvetica, sans-serif;
+}
+
+/** Disposition tailles et fond des différentes zonnes **/
+body{
+    margin: 0% 0%;
+    background-image: url(../images/background.png);
+    background-position: right top;
+    background-size: auto 100%;
+    background-attachment:fixed;
+    width: 100%;
+}
+
+h1{
+    margin: 0;
+    padding: 70px
+}
+header{
+    display: block;
+    width: 100%;
+    margin-left: 100px;
+    margin-bottom: 40px;
+    background-color: rgba(80,80,100,0.8);
+    
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    width: 100px;
+    background-color: #456399;
+    height: 100%;
+}
+nav>div{
+    margin-top: 250px
+}
+nav>div>a>span{
+    color: aliceblue;
+    margin-left: 35px;
+    height: 70px;
+    margin-bottom: 30px;
+    visibility: hidden;
+    font-weight: 700;
+}
+
+nav>div>a>img{
+    color: aliceblue;
+    margin-top: 75px;
+    margin-left: 15px;
+    height: 70px
+}
+nav:hover{
+    width: 25%;
+    transition: 0.7s;
+    background-color: #3c5686;
+}
+
+nav:hover div>a>span{
+    transition: 1s;
+    transition-delay: 0.6s;
+    visibility:visible;
+}
+
+main{
+    width: 60%;
+    margin-left: 26%;
+    padding: 30px;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 20px;
+    background-color: white;
+}
