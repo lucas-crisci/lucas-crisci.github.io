@@ -34,6 +34,7 @@ nav{
     width: 100px;
     background-color: #456399;
     height: 100%;
+    transition-duration: 0.7s;
 }
 nav>div{
     margin-top: 200px
@@ -57,12 +58,6 @@ nav:hover{
     width: 25%;
     transition: 0.7s;
     background-color: #3c5686;
-}
-
-nav:hover div>a>span{
-    transition: 1s;
-    transition-delay: 0.6s;
-    visibility:visible;
 }
 .secselect{
     background-color: red;
