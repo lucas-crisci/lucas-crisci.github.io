@@ -7,7 +7,7 @@ h1,h2,h3,p,a{
 /** Disposition tailles et fond des différentes zonnes **/
 body{
     margin: 0% 0%;
-    background-image: url(../images/background.png);
+    background-image: url(../images/background2.png);
     background-position: right top;
     background-size: auto 100%;
     background-attachment:fixed;
@@ -20,11 +20,11 @@ h1{
 }
 header{
     display: block;
-    width: 100%;
+    width: 100%-100px;
     margin-left: 100px;
     margin-bottom: 40px;
-    background-color: rgba(130,130,150,0.8);
-    font-size: 30px;
+    background-color: rgba(130,130,150,0.6);
+    font-size: 25px;
     color: rgba(930,930,950);
 }
 
@@ -47,7 +47,9 @@ nav>div>a>span{
     visibility: hidden;
     font-weight: 700;
 }
-
+.navPhone{
+    display: none
+}
 nav>div>a>img{
     color: aliceblue;
     margin-top: 0px;
