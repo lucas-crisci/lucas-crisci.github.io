@@ -37,8 +37,7 @@ nav{
 }
 nav>div{
     margin-top: 15px;
-    margin-left: 10%;
-    margin-right: 10%
+    margin-left: 50px;
 }
 nav>div>a>span{
     color: aliceblue;
@@ -47,18 +46,21 @@ nav>div>a>span{
     margin-bottom: 30px;
     font-weight: 700;
 }
-
 nav>div>a>img{
     color: aliceblue;
     height: 50px;
-    margin-right: 9%
+    margin-left: 30px;
+}
+.first_nav{
+    margin-left: 0px;
 }
 .navPC{
     display: none
 }
 main{
-    width: 80%;
+    //width: 80%;
     margin-left: 5%;
+    margin-right: 5%;
     padding: 50px;
     box-shadow: 0px 0px 10px black;
     border-radius: 20px;
