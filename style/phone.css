@@ -6,7 +6,7 @@ h1,h2,h3,p,a{
 
 /** Disposition tailles et fond des différentes zonnes **/
 body{
-    margin: 0% 0%;
+    margin: 0% 0% 0% 0%;
     background-image: url(../images/background2.png);
     background-position: right top;
     background-size: auto 100%;
@@ -21,46 +21,54 @@ h1{
 header{
     display: block;
     width: 100%;
-    margin-top: 80px;
     margin-bottom: 40px;
-    background-color: rgba(130,130,150,0.6);
+    background-color: rgba(160,160,180);
     font-size: 25px;
     color: rgba(930,930,950);
 }
 
-nav{
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: #456399;
-    height: 80px;
-}
-nav>div{
-    margin-top: 15px;
-    margin-left: 50px;
-}
-nav>div>a>span{
-    color: aliceblue;
-    margin-left: 35px;
-    height: 70px;
-    margin-bottom: 30px;
-    font-weight: 700;
-}
-nav>div>a>img{
-    color: aliceblue;
-    height: 50px;
-    margin-left: 30px;
-}
-.first_nav{
-    margin-left: 0px;
-}
+
+#menu-icon {
+		position: absolute;
+        top: 45px;
+        left: 40px
+	}
+
+	nav ul, nav:active ul { 
+		display: none;
+		position: absolute;
+		padding: 20px;
+		background: #456399;
+		border: 5px solid #222;
+		left: 20px;
+		top: 60px;
+		width: 50%;
+		border-radius: 0px 10px 10px 10px;
+	}
+
+	nav li {
+        list-style-type: none;
+		text-align: center;
+		width: 100%;
+		padding: 10px 0;
+		margin: 0;
+	}
+
+	nav:hover ul {
+		display: block;
+	}
+
+
 .navPC{
     display: none
 }
+
+.secselect{
+    background-color: red;
+}
 main{
-    //width: 80%;
+    width: 80%;
     margin-left: 5%;
-    margin-right: 5%;
     padding: 50px;
     box-shadow: 0px 0px 10px black;
     border-radius: 20px;
@@ -69,7 +77,4 @@ main{
 p {
     font-size: 18px;
     text-align: justify;
-}
-.retour{
-    display: none
 }
