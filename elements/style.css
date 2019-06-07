@@ -17,6 +17,7 @@ header{
     font-size: 25px;
     color: rgba(930,930,950);
 }
+
 p{
     font-size: 18px;
     text-align: justify;
@@ -46,7 +47,7 @@ main{
     h1{
         padding: 70px
     }
-    header{
+    header, footer{
         width: 100%-100px;
         margin-left: 100px;
         background-color: rgba(130,130,150,0.6);
