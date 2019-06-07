@@ -37,12 +37,6 @@ main{
     border-radius: 50px;
 }
 
-#skills td{
-    text-align: center;
-    padding: 20px 5px;
-}
-
-
 @media (min-width: 900px) and (min-aspect-ratio: 4/5){
     h1{
         padding: 70px
@@ -93,6 +87,11 @@ main{
         width: 60%;
         margin-left: 26%;
     }
+
+    #skills td{
+        text-align: center;
+        padding: 20px 5px;
+    }
 }
 
 @media (max-width: 889px), all (max-aspect-ratio: 4/5){
@@ -137,5 +136,12 @@ main{
     main{
         width: 80%;
         margin-left: 5%;
+    }
+
+    #skills td{
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 20px 5px;
     }
 }
