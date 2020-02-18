@@ -52,8 +52,8 @@ footer p{
         padding: 70px
     }
     header, footer{
-        width: 100%-100px;
-        margin-left: 100px;
+        width: 100%-70px;
+        margin-left: 70px;
         background-color: rgba(130,130,150,0.6);
         font-size: 25px;
         color: rgba(930,930,950);
@@ -62,7 +62,7 @@ footer p{
     nav{
         position: fixed;
         top: 0;
-        width: 100px;
+        width: 70px;
         background-color: #456399;
         height: 100%;
         transition-duration: 0.7s;
@@ -84,27 +84,32 @@ footer p{
     nav>div>a>img{
         color: aliceblue;
         margin-top: 0px;
-        margin-left: 15px;
-        height: 70px
+        margin-left: 12px;
+        height: 50px
     }
     nav:hover{
-        width: 237px;
+        width: 200px;
         transition: 0.7s;
         background-color: #3c5686;
     }
-    
     main{
         width: 60%;
-        margin-left: 26%;
+        margin-left: 20%;
     }
-
     #skills td{
         text-align: center;
         padding: 20px 5px;
     }
 }
 
-
+@media (max-height: 700px){
+    h1{
+        padding: 20px
+    }
+    nav>div{
+        margin-top: 100px
+    }
+}
 
 @media (max-width: 889px), all (max-aspect-ratio: 4/5){
     h1{
