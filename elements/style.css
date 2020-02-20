@@ -125,6 +125,14 @@ p{
     text-align: justify;
 }
 
+h2{
+    box-shadow: 0px 0px 10px rgba(20,50,180,0.9);
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    letter-spacing: 5;
+}
+
 main{
     padding: 50px;
     box-shadow: 0px 0px 10px black;
@@ -152,7 +160,7 @@ video{
 
 @media (min-width: 900px) and (min-aspect-ratio: 4/5){
     h1{
-        padding: 70px
+        padding: 50px
     }
     header, footer{
         width: 100%-70px;
@@ -197,7 +205,7 @@ video{
     }
     main{
         width: 60%;
-        margin-left: 20%;
+        margin-left: 25%;
     }
     #skills td{
         text-align: center;
@@ -254,7 +262,7 @@ video{
     }
     
     main{
-        width: 80%;
+        width: 90%;
         margin-left: 5%;
     }
 
