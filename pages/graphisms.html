@@ -44,12 +44,82 @@
                 <p>Le dessin est un de mes principaux passe-temps et j'ai été mené, tout au long de mon parcours à utiliser mes compétences dans la réalisation de designs.</p>
                 <p>Les graphismes de différents projets ont ainsi été réalisé complétement ou partiellement par mes soins. Vous pourrez retrouver toutes les spécificités de chacun de travaux sur la page <a href="projects.html">Projets de ce Portfollio.</a></p>
             </section>
+            
+            
+            <script>
+                var slideIndex = 1;
+                showSlides(slideIndex);
+
+                // Next/previous controls
+                function plusSlides(n) {
+                  showSlides(slideIndex += n);
+                }
+
+                // Thumbnail image controls
+                function currentSlide(n) {
+                  showSlides(slideIndex = n);
+                }
+
+                function showSlides(n) {
+                  var i;
+                  var slides = document.getElementsByClassName("mySlides");
+                  var dots = document.getElementsByClassName("dot");
+                  if (n > slides.length) {slideIndex = 1}
+                  if (n < 1) {slideIndex = slides.length}
+                  for (i = 0; i < slides.length; i++) {
+                      slides[i].style.display = "none";
+                  }
+                  for (i = 0; i < dots.length; i++) {
+                      dots[i].className = dots[i].className.replace(" active", "");
+                  }
+                  slides[slideIndex-1].style.display = "block";
+                  dots[slideIndex-1].className += " active";
+                }
+            </script>
+            
+            
+
             <section>
                 <h2>Escape Jufac</h2>
+                <video controls src="../documents/EscapeJufac.mp4"></video>
                 <p>Au vu des contraintes imposées par ce projet, nous avons décidé de réaliser un visuel en Flat design simple. Ils ont été créés à partir du logiciel Gimp. On peut voir ci-dessous la plus grosse partie du travail qui m’a été confié, à savoir, la totalité de la salle « Réseaux ».  On peu y voir un ensemble de bornes d’arcade ainsi qu’un vieux PC et un ensemble de décoration.</p>
             </section>
             <section>
                 <h2>Gravitation Lumière</h2>
+                
+            <div class="slideshow-container">
+
+              <!-- Full-width images with number and caption text -->
+              <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="../documents/GL1.png" style="width:100%">
+                <div class="text">Caption Text</div>
+              </div>
+
+              <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="../documents/GL2.png" style="width:100%">
+                <div class="text">Caption Two</div>
+              </div>
+
+              <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="../documents/GL3.png" style="width:100%">
+                <div class="text">Caption Three</div>
+              </div>
+
+              <!-- Next and previous buttons -->
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+              <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
                 <p>Ce projet quant à lui a dû être réalisé en binôme, j’ai donc du réalisé l’intégralité des designs à la tablette graphique sur le logiciel PaintTool Sai. J’ai donc commencé par designer l’interface de jeu avant d’imaginer et créé les vaisseaux que pourront utiliser les joueurs. Il m’a ensuite fallu créer l’ensemble des cartes de jeu, les planètes ainsi que tous les éléments permettant aux joueurs de suivre l’état du jeu. On peu donc citer les possibilités de déplacement, le nombre de tirs restants, le fuel, les statistiques, les vies restantes… Pour finir, j’ai conçu un écran de titre avec une police d’écriture désigné par mes soins et un décor reprenant les éléments du jeu.</p>
             </section>
         </main>
