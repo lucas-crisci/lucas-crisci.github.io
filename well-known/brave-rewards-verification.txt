@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: lucas-crisci.github.io
+Token: 18d78de32350b6180b7db74c5e537c6b4473c5011dfa113879def3d10040c3cd
