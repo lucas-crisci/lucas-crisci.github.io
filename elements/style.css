@@ -234,7 +234,7 @@ video{
     }
     header, footer{
         width: 100%;
-        background-color: rgba(20,50,130,0.6);
+        background-color: rgba(100,100,130,0.6);
     }
     
     #menu-icon {
@@ -246,7 +246,7 @@ video{
             display: none;
             position: absolute;
             padding: 20px;
-            background: #456399;
+            background: rgba(10,10,10,1);
             border: 5px solid #222;
             left: 20px;
             top: 60px;
