@@ -130,8 +130,8 @@ p{
 }
 
 h2{
-    box-shadow: 0px 0px 10px rgba(100,100,170,1);;
-    border-radius: 20px;
+    box-shadow: 0px 0px 5px rgba(50,50,70,1);
+    border-radius: 10px;
     padding: 10px;
     text-align: center;
     letter-spacing: 5;
@@ -149,7 +149,7 @@ main{
     padding: 15px;
     box-shadow: 0px 0px 10px black;
     border-bottom-color: black;
-    border-radius: 50px;
+    border-radius: 10px;
 }
 
 footer p{
@@ -171,7 +171,7 @@ video{
     header, footer{
         width: 100%-200px;
         margin-left: 200px;
-        background-color: rgba(100,100,130,0.6);
+        background-color: rgba(50,50,70,0.8);
         font-size: 25px;
         color: rgba(930,930,950);
         text-align: center;
@@ -234,7 +234,7 @@ video{
     }
     header, footer{
         width: 100%;
-        background-color: rgba(100,100,130,0.6);
+        background-color: rgba(50,50,70,0.8);
     }
     
     #menu-icon {
