@@ -98,8 +98,9 @@
 
 
 body{
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
     margin: 0% 0% 0% 0%;
-    background-image: url(../documents/background2.png);
+    background-image: url(../documents/background3.png);
     background-position: right top;
     background-size: auto 100%;
     background-attachment:fixed;
@@ -114,6 +115,7 @@ h1{
 a{
     text-decoration:none; 
     font-weight: bold;
+    color: rgba(100,100,170,1);
 }
 header{
     display: block;
@@ -128,7 +130,7 @@ p{
 }
 
 h2{
-    box-shadow: 0px 0px 10px rgba(20,50,180,0.9);
+    box-shadow: 0px 0px 10px rgba(100,100,170,1);;
     border-radius: 20px;
     padding: 10px;
     text-align: center;
@@ -155,6 +157,7 @@ footer p{
     padding: 10px;
     color: white;
     font-weight: bold;
+    text-align: right;
 }
 
 video{
@@ -166,18 +169,19 @@ video{
         padding: 50px
     }
     header, footer{
-        width: 100%-70px;
-        margin-left: 70px;
-        background-color: rgba(20,50,130,0.6);
+        width: 100%-200px;
+        margin-left: 200px;
+        background-color: rgba(100,100,130,0.6);
         font-size: 25px;
         color: rgba(930,930,950);
+        text-align: center;
     }
     
     nav{
         position: fixed;
         top: 0;
-        width: 70px;
-        background-color: rgba(70,90,130,1);
+        width: 200px;
+        background-color: rgba(10,10,10,1);
         height: 100%;
         transition-duration: 0.7s;
     }
@@ -202,9 +206,8 @@ video{
         height: 50px
     }
     nav:hover{
-        width: 200px;
         transition: 0.7s;
-        background-color: #3c5686;
+        background-color: rgba(20,20,20,1);
     }
     main{
         width: 60%;
