@@ -28,6 +28,12 @@
   user-select: none;
 }
 
+.NavTitle {
+  width: auto;
+  font-size: 23px;
+  color: white;
+}
+
 /* Position the "next button" to the right */
 .next {
   right: 0;
@@ -180,13 +186,14 @@ video{
     nav{
         position: fixed;
         top: 0;
-        width: 200px;
+        width: 210px;
         background-color: rgba(10,10,10,1);
         height: 100%;
+        padding-left: 10px;
         transition-duration: 0.7s;
     }
     nav>div{
-        margin-top: 155px
+        margin-top: 200px
     }
     nav>div>a>span{
         color: aliceblue;
@@ -195,7 +202,12 @@ video{
         margin-bottom: 30px;
         visibility: hidden;
         font-weight: 700;
-    }
+    }   
+   
+   .retour{
+      height: 10px;
+   }
+
     .navPhone{
         display: none;
     }
